@@ -1,0 +1,25 @@
+[debug] [2018-08-31T10:49:02.351Z] ----------------------------------------------------------------------
+[debug] [2018-08-31T10:49:02.359Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\blgnb\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-08-31T10:49:02.360Z] CLI Version:   4.1.1
+[debug] [2018-08-31T10:49:02.361Z] Platform:      win32
+[debug] [2018-08-31T10:49:02.361Z] Node Version:  v8.11.3
+[debug] [2018-08-31T10:49:02.361Z] Time:          Fri Aug 31 2018 11:49:02 GMT+0100 (W. Central Africa Standard Time)
+[debug] [2018-08-31T10:49:02.361Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-31T10:49:02.404Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-31T10:49:02.407Z] > authorizing via signed-in user
+[debug] [2018-08-31T10:49:02.415Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/project2018-b66f8  
+ 
+[debug] [2018-08-31T10:49:05.643Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-31T10:49:05.646Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/project2018-b66f8/tokens  
+ 
+[debug] [2018-08-31T10:49:07.104Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'project2018-b66f8'...
+[info] 
+[info] i  deploying hosting
+[debug] [2018-08-31T10:49:09.296Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/project2018-b66f8/versions  
+
+[debug] [2018-08-31T10:49:12.946Z] <<< HTTP RESPONSE 200
+[info] i  hosting: found 239 files in public directory
+[debug] [2018-08-31T10:49:13.920Z] [hosting] hash cache [0] stored for 239 files
