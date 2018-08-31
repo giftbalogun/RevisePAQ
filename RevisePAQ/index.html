@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>RevisePAQ</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBVS1EIpetB3gNxJ6iw61gDIRfb_YcqTCg",
+    authDomain: "project2018-b66f8.firebaseapp.com",
+    databaseURL: "https://project2018-b66f8.firebaseio.com",
+    projectId: "project2018-b66f8",
+    storageBucket: "project2018-b66f8.appspot.com",
+    messagingSenderId: "28699666436"
+  };
+  firebase.initializeApp(config);
+	
+ var database = firebase.database();
+</script>
+<script src="Others/index.js" type="text/javascript"></script>
+    </head>
+    <body class="is-preload">
+
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/me.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">Balogun Gift</a></h1>
+					<p>I'm a dedicated programmer and an upcoming engineering in my second
+                                        year at Covenant University.</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">About</a></li>
+						<li><a href="#two">Things I Can Do</a></li>
+                                                <li><a href="#three">My Work</a></li>
+						<li><a href="#four">A Few Accomplishments</a></li>
+						<li><a href="#five">Contact Me</a></li>                                            
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="https://www.twitter.com/am_de_one/" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/kelvinbalogun568" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/am_de_one/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://www.github.com/giftbalogun/" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="mailto:blgnbalogun52@gmail.com" class="icon fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+				</footer>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="images/banner.jpg" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h2>RevisePAQ</h2>
+										<p> Know About Us by  <a href="">Apex Technology Inc.</a>.</p>
+									</header>
+									<p>Revise PAQ is a devision of Apex Technology Inc. and 
+                                                                                    is an extra-ordinary application designed to help
+                                                                                    university students prepare for examination in a better way
+                                                                                    by simply allowing them to learn and go through past questions</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3>Things I Can Do</h3>
+									<p>Thanks for visiting my profile, below are the basic things i can do</p>
+									<ul class="feature-icons">
+										<li class="fa-code">Write Software Programs</li>
+										<li class="fa-cubes">Programs in various platform</li>
+										<li class="fa-book">Read books and stuff</li>
+										<li class="fa-coffee">Help People</li>
+										<li class="fa-bolt">Lightning bolt</li>
+										<li class="fa-users">Shadow clone technique</li>
+									</ul>
+								</div>
+							</section>
+                                                
+                                                <!-- Three -->
+                                                <section id="three">
+								<div class="container">
+									<h3>My Works</h3>
+									<p>Hello one of y works are displayed below, just click and download the mobile application Thanks</p>
+									<div class="features">
+										<article>
+											<a href="Others/Revise PAQ v1.apk" class="image"><img src="images/play.png" alt="" /></a>
+                                       							<div class="inner">
+												<h4>RevisePAQ Mobile App</h4>
+												<p>Get the RevisePAQ mobile application here by clicking the image.</p>
+											</div>
+										</article>
+                                                                                <article>
+											<a href="https://nnu.ng/nip/?a=amtheone" target="_blank"><img src="https://nnu.ng/sitefiles/ads/1532112192.jpg" /></a>
+                                       							<div class="inner">
+												<h4></h4>
+												<p></p>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="four">
+								<div class="container">
+									<h3>Keeping You Up To Date</h3>
+									<p>See the Latest Happening Here</p>
+									<div class="features">
+										<article>
+											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<div class="inner">
+												<h4>Pay for your RevisePAQ Registration</h4>
+												<p>Dear Users,your are required to Pay for registration and Use RevisePAQ for a life time
+                                                                                                    Pay for your registration by clicking 
+                                                                                                    </p>
+                                                                                                <form>
+                                                                                                  <script src="https://js.paystack.co/v1/inline.js"></script>
+                                                                                                  <input type="button" class="primary" onclick="payWithPaystack()" value="PAY NOW"/>
+                                                                                                </form>
+                                                                                                    <p>Or by sending to this Account Number 2101103967 UBA
+																									Balogun Gift Iwokura</p>
+                                                                                                <script>
+  function payWithPaystack(){
+    var handler = PaystackPop.setup({
+      key: 'pk_live_a996c3f53da0da593df331882fdff5f3ca992f34',
+      email: 'blgnbalogun52@gmail.com',
+      amount: 100050,
+      ref: ''+Math.floor((Math.random() * 1000000000) + 1), // generates a pseudo-unique reference. Please replace with a reference you generated. Or remove the line entirely so our API will generate one for you
+      firstname: 'Gift',
+      lastname: 'Balogun',
+      // label: "Optional string that replaces customer email"
+      metadata: {
+         custom_fields: [
+            {
+                display_name: "Mobile Number",
+                variable_name: "mobile_number",
+                value: "+2349075184773"
+            }
+         ]
+      },
+      callback: function(response){
+          alert('success. transaction ref is ' + response.reference);
+      },
+      onClose: function(){
+          alert('Unable To Process Transaction');
+      }
+    });
+    handler.openIframe();
+  }
+</script>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+
+						<!-- Four -->
+							<section id="five">
+								<div class="container">
+									<h3>Contact Me</h3>
+									<p>Do you wanna know me or have something to tell or want to complain about something jut fill the form below</p>
+									<form method="post" action="#">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="user_name" placeholder="Name" /></div>
+                                                                                        <div class="col-6 col-12-xsmall"><input type="text" name="name" id="instagram" placeholder="Instagram Username" /></div>
+											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="user_email" placeholder="Email" /></div>
+                                                                                        <div class="col-6 col-12-xsmall"><input type="email" name="email" id="paq_email" placeholder="RevisePAQ Email" /></div>
+											<div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+											<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" onclick="save_user();" class="primary" value="Send Message" /></li>
+													<li><input type="reset" value="Reset Form" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</div>
+							</section>
+
+						
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+							<ul class="copyright">
+								<li>&copy; RevisePAQ. All rights reserved.</li><li>Design: <a href="">Apex Technology Inc.</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+    </body>
+</html>
